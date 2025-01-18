@@ -1,0 +1,101 @@
+body{
+    margin: 0;/*to  remove the space at the edge of the page to get this design*/
+    /*text font for all text ( google fonts ( copy paste))*/
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.border{
+    
+    margin: 18px;
+    height:693px;
+    border: 5px solid black;
+    border-radius: 13px;
+    
+}
+.background{
+    display: flex;
+    z-index: 1;
+    background: linear-gradient(to bottom ,#0535f5,#4590d6);
+    height: 150px;
+}
+.pfp{
+    display: flex;
+    position: absolute;
+    width: 180px;
+    padding-left: 70px;
+    bottom: 430px;
+}
+.name{
+    padding-left: 270px;
+}
+.uni{
+    width: 60px;
+    padding-left: 270px;
+    position: absolute;
+    bottom: 450px;
+
+}
+.name-uni{
+    color: #666666;
+    position: absolute;
+    width: 200px;
+    padding-left: 335px;
+    bottom: 420px;
+}
+.birthdate{
+    position: absolute;
+    bottom: 500px;
+    left: 700px;
+    font-size: 20px;
+
+}
+.location{
+    position: absolute;
+    bottom: 470px;
+    left: 700px;
+    font-size: 20px;
+}
+.phone{
+    position: absolute;
+    bottom: 500px;
+    left: 1150px;
+    font-size: 20px;
+}
+.email{
+    position: absolute;
+    bottom: 470px;
+    left: 1150px;
+    font-size: 20px;
+}
+.box{
+    width: 50px;
+    height: 150px;
+    border: 2px solid black;
+    align-items: center;
+    position: absolute;
+    left: 22px;
+    bottom: 250px;
+    z-index: -1;
+}
+.LinkedIn{
+    color: rgba(39,102,181,255);
+    box-sizing: 300px;
+    position: absolute;
+    left: 35px;
+    bottom: 355px;
+}
+.facebook{
+    color: rgba(8,102,255,255);
+    position: absolute;
+    left: 35px;
+    bottom: 312px;
+
+}
+.emailto{
+    color: black;
+    position: absolute;
+    left: 35px;
+    bottom: 265px;
+
+}

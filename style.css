@@ -1,0 +1,174 @@
+                              /*the upper part ( logo / buttons) */
+.header{ 
+
+    background: linear-gradient(to bottom ,#0535f5,#4590d6);/*the background color faded*/
+    display: flex; /* to ensure that divs are displayed next to each other */
+    justify-content: space-between; /*to make a space between the logo ( left part ) and buttons (right part)*/
+    align-items: center;/*to ensure that all the divs are on the same y axis ( centred )*/
+}
+
+.logo{ /*my logo at the top left corner */
+    width: 150px;
+    padding: 15px;
+    padding-left: 50px;
+}
+.second-div a:hover{ /*hover to make the animation of mouse pointer on the link*/
+    color: white;
+    background-color: #1593d6;
+    border-radius: 20px;
+
+    
+    
+}
+.second-div a{ /* links styling */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.second-div button{/*button styling */
+    color: white;
+    background-color: #7b00ff;
+    border-radius: 20px;
+}
+.second-div button:hover{/*hover to make the animation of mouse pointer on the link*/
+    background-color: #a779d9;
+    width: 90px;
+}
+.second-div{ /*the right part styling */
+    padding-right: 25px;
+}
+.gif-img{/*the gif particles*/
+    position: absolute;
+    padding-top: 8px;
+    z-index: 1;
+}
+
+
+
+                                /*THE BODY ( Introduction / recent activities ...)*/
+
+body{
+    margin: 0;/*to  remove the space at the edge of the page to get this design*/
+    /*text font for all text ( google fonts ( copy paste))*/
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.landing-page{
+    color: white;
+    text-shadow: 5px 5px 20px black;
+    z-index: 2;
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background: linear-gradient(to bottom,#4590d6,#0535f5);
+    padding: 30px;
+    align-items: center;
+    border-radius:0 0 50px 50px ;/*to make the buttom curve */
+
+
+}
+.my-img{/* the right image in the landing page*/
+    width: 10em;
+    border-radius: 10px;
+    box-shadow: 0 0 100px white;/*white shadow*/
+}
+
+
+
+
+                                    /*recent activities part*/
+.recent-activities{ 
+    width: 34.5rem;
+    margin: 70px;
+    position: relative;
+    overflow: hidden;/*!!! to make one photo appear at time for the slider !!!!*/
+
+}
+
+
+.wrapper{
+    width: 100%;
+    display: flex;/*!!! to make the images of the slider next to each other for the slider !!!*/
+    z-index: -1;
+}
+.gallery{
+    width: 100%;
+    height: 21rem;
+    padding: 10px;
+    border-radius: 25px;
+    border: 15px solid #dbdbdb;
+    z-index: -1;
+    animation: slide 16s infinite;/* animation function */
+}
+@keyframes slide{/*the keyframes of the slider animation*/
+    0%{
+        transform: translateX(0);
+    }
+    15%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(-100%);
+    }
+    40%{
+        transform: translateX(-100%);
+    }
+    45%{
+        transform: translateX(-200%);
+    }
+    65%{
+        transform: translateX(-200%);
+    }
+    70%{
+        transform: translateX(-300%);
+    }
+    85%{
+        transform: translateX(-300%);
+    }
+    95%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.text{/* RECENT ACTIVITIES TEXT FONT*/
+
+    font-family: "Bebas Neue", serif;/*google fonts*/
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #cf4646;
+      
+
+}
+.event{/* event name part */
+    color: #0390fc;
+    position: absolute;
+    top: 573px;
+    left: 635px;
+    z-index: 5;
+}
+.event-location{
+    color: #0390fc;
+    position: absolute;
+    top: 583px;
+    left: 833px;
+    z-index: 5;
+
+    
+}
+.event-description{
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 608px;
+    left: 635px;
+    z-index: 5;
+
+}
+
+
